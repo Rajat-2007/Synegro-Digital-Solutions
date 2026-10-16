@@ -1,0 +1,20 @@
+{
+  "name": "synegro-digital-solutions",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Synegro Digital Solutions business website with responsive design and EmailJS enquiries",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "check": "node --check server.js && node --check public/js/main.js && node --check public/js/email-config.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0"
+  }
+}
